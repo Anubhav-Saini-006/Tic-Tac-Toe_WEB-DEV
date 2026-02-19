@@ -71,7 +71,7 @@ const reset=()=>{
     el.innerText="Reset";
     el.setAttribute("class","resBtn");
     el.style.fontSize = "2rem";
-    el.style.padding = "1rem";
+    // el.style.padding = "rem";
     let resultButton=document.querySelector(".resBtn");
     resultButton.addEventListener("click",()=>{
         const Name2=document.querySelector("#res");
